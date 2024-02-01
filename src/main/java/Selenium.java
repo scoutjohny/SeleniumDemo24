@@ -16,6 +16,8 @@ public class Selenium {
         driver.findElement(By.cssSelector(".inventory_list>:nth-child(4) button")).click();
         driver.findElement(By.cssSelector("[data-icon='shopping-cart']")).click();
         driver.findElement(By.xpath("checkout_button")).click();
+        System.out.println("Uspeli smo");
+        System.out.println("Skro");
         driver.quit();
     }
 }
