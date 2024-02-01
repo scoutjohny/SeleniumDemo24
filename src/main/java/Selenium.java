@@ -17,7 +17,7 @@ public class Selenium {
         driver.findElement(By.cssSelector("[data-icon='shopping-cart']")).click();
         driver.findElement(By.xpath("checkout_button")).click();
         System.out.println("Uspeli smo");
-        System.out.println("Skroz");
+        System.out.println("Skro");
         driver.quit();
     }
 }
